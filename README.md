@@ -24,7 +24,7 @@ This is a smart contract for Ethereum.
 ### setIsMintEnabled(bool _isMintEnabled)
 - Toggles the public minting functionality on or off.
 
-### setBaseURI(bool _revealed, string memory _baseURI)
+### setBaseURI(string memory _baseURI)
 - Sets the base URI for the token metadata. This function allows the contract owner to update the metadata path. Remember to include a trailing slash (`/`) at the end because the tokenURI function doesn't append a trailing slash.
 
 ### setContractURI(string memory _contractURI)

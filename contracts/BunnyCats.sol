@@ -59,7 +59,7 @@ contract BunnyCats is Ownable, ERC721A, ReentrancyGuard {
         isMintEnabled = _isMintEnabled;
     }
 
-    function setBaseURI(bool _revealed, string memory _baseURI) public onlyOwner {
+    function setBaseURI(string memory _baseURI) public onlyOwner {
         BASE_URI = _baseURI;
     }
 
